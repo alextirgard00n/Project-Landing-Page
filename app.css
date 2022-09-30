@@ -93,7 +93,8 @@ li {
 
 .imagesRow {
     display: flex;
-    align-self: center;
+    /* align-content: center; */
+    justify-content: center;
     flex-wrap: wrap;
 }
 
