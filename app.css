@@ -5,7 +5,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* max-width: 1000vh */
+    /* background-color: #e5e7eb; */
 }
 
 .body {
@@ -13,12 +13,17 @@ body {
 }
 
 .header {
-    height: 72px;
-    background-color: #1f2937;
     display: flex;
+    margin: auto;
+    width: 90%;
+    padding: 20px 0px;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    max-width: 1500px;
+}
+
+.darkBackground {
+    background-color: #1f2937;
 }
 
 .headerLogo {
@@ -47,8 +52,11 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 72px 50px;
-    gap: 35px;
+    max-width: 1500px;
+    padding: 72px 0;
+    gap: 50px;
+    margin: auto;
+    width: 90%;
 }
 
 .introTitle {
@@ -89,6 +97,7 @@ li {
 .content {
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 .imagesRow {
